@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.author           = { 'luthviar' => 'luthviar.a@gmail.com' }
   
     s.platform         = :ios, '12.0'
-    s.static_framework = true
+    s.static_framework = false
     s.module_name      = 'ffmpegkit'
   
     s.source = {
